@@ -1,3 +1,34 @@
 html, body {
     height: 100%;
 }
+
+.background-link {
+    height: 100%;
+    background-image: url("https://i.stack.imgur.com/7YKUD.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    height: 90%;
+    position: relative;
+    background-image: url("https://files.idssasp.com/public/C102/09c56e29-6ae8-4801-ae7c-12e7c42ddd57/9ded3869-1063-4376-9edb-18a41b5a1cc2.png");
+    background-repeat: no-repeat;
+    background-position-y: 10%;
+    background-position-x: 50%;
+}
+
+.trivia {
+    height: 45%;
+    width: 60%;
+    font-size: 3vh;
+    color: goldenrod;
+    border: 3px dashed blanchedalmond;
+    margin: auto;
+    text-align: center;
+}
+
+p:hover {
+    background-color: lightblue;
+}
