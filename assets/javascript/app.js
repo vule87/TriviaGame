@@ -116,7 +116,7 @@ $(document).ready(function () {
 
 
     function correctPic() {
-        $(".correctAnswer").append("<img src=" + pick.pic + ">");
+        $(".correctAnswer").append(pick.pic);
         newArray.push(pick);
         allquestions.splice(index, 1);
 
