@@ -1,25 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Trivia Game</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/reset.css">
 </head>
+
 <body>
     <div class="container-fluid background-link">
         <div class="container">
             <div class="trivia mb-5 justify-content-center fixed-bottom">
-                <div class="time">Time Remaining: <span id="time-left"></span></div>
-                <div class="question pt-2">If a banana?</div>
-                <div class="choices pt-4">
-                    <p class="choice1 pt-1">a</p>
-                    <p class="choice2 pt-1">b</p>
-                    <p class="choice4 pt-1">c</p>
-                    <p class="choice3 pt-1">d</p>
+                <div class"startBtn justify-content-center align-self-center">
+                    <button class="start" style='width:200px; margin-top:15%'>Start</button>
+                </div>
+                <div class="allThings">
+                    <div class="time">Time Remaining: <span id="time-left"></span> </div>
+                    <div class="question">If a banana?</div>
+                    <div class="choices">
+                        <p class="choice1">a</p>
+                        <p class="choice2">b</p>
+                        <p class="choice4">c</p>
+                        <p class="choice3">d</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -29,4 +37,5 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="./assets/javascript/app.js"></script>
 </body>
+
 </html>
